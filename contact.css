@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(https://www.bestchance.org.au/wp-content/uploads/2020/03/DONATIONS-MONEY.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  a {
+    color: #f8f8ff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgba(222, 184, 135, 0.466);
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  
+  header .logo {
+    margin-left: 2rem;
+    font-size: 2rem;
+    display: flex;
+  }
+  
+  .logoimg img {
+    width: 80px;
+  }
+  
+  .logohd {
+      font-size: 3rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  ul li {
+    margin-right: 1rem;
+  }
+  
+  ul li a {
+    font-size: 1rem;
+    padding: 8px 10px;
+  }
+  ul li a.active,
+  ul li a:hover {
+    background-color: rgb(167, 119, 48);
+    transition: 0.5s;
+    border-radius: 2px;
+  }
+  
+  label {
+    display: none;
+  }
+  input {
+    display: none;
+  }
+  
+  .navbar-items li a {
+    padding: 5px 9px;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: 0.5s ease;
+  }
+  .bar{
+    display: none;
+  }
+.contact-container{
+    background-color:  rgba(3, 1, 0, 0.403);
+    width: 70vh;
+    text-align: center;
+    padding: 7rem;
+    border-radius: 10px;
+    margin-left: 70vh;
+    margin-top: 5vh;
+}
+.contact-container:hover{
+  box-shadow: #f8f8ff 1px 1px 3px 3px;
+}
+.icons{
+    color: #f8f8ff;
+}
+.icons i{
+    margin: 1rem;
+}
+.icons i:hover{
+    color: black;
+}
+
+@media (max-width: 780px){
+  .logohd{
+    display: none;
+  }
+  ul{
+    flex-direction: column;
+    padding: 3px 4px;
+    margin: 0%;
+  }
+  ul li a{
+    padding: 1rem;
+  }
+  p{
+    margin-top: 5rem;
+  }
+  .contact-container{
+    padding: 1rem;
+    margin-left: 10vh;
+    width: 20vh;
+  }
+  .icons{
+    display: block;
+  }
+  
+}
+
+@media (max-width: 1180px){
+  .contact-container{
+    margin-left: 40vh;
+    width: 70vh;
+  }
+  .icons{
+    display: block;
+  }
+}
+
+@media (max-width: 780px){
+  .logohd{
+    display: none;
+  }
+  ul{
+    flex-direction: column;
+    padding: 3px 4px;
+    margin: 0%;
+  }
+  ul li a{
+    padding: 1rem;
+  }
+  p{
+    margin-top: 5rem;
+  }
+  .contact-container{
+    padding: 1rem;
+    margin-left: 10vh;
+  }
+  .icons{
+    display: block;
+  }
+  
+} 
+@media (max-width: 660px){
+  .contact-container{
+    padding: 1rem;
+    margin-left: 5vh;
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+@media (max-width: 520px){
+  .contact-container{
+    padding: 1rem;
+    margin-left: 3vh;
+    width: 50vh;
+  }
+  .icons{
+    display: block;
+
+  }
+}
+@media (max-width: 450px){
+  .contact-container{
+    padding: 1rem;
+    margin-left: 20vh;
+    width: 20vh;
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+@media (max-width: 320px){
+  p{
+    font-size: 200%;
+  }
+  ul li a{
+    margin-left: 100px;
+  }
+  header{
+    width: 55vh;
+  }
+  .contact-container{
+    margin-left: 10vh;
+  }
+  
+
+}
